@@ -141,8 +141,7 @@ module.exports = function(RED) {
         credentials: {
             client_id: {type:"text"},
             client_secret: {type:"text"},
-            username: {type:"text"},
-            password: {type:"password"},
+            refresh_token: {type:"text"}
     }});
 
     // Discover homes with homesData
